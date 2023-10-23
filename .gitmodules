@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/ASPxISSP/backend
+[submodule "mobile"]
+	path = mobile
+	url = https://github.com/ASPxISSP/mobile
