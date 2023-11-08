@@ -20,7 +20,7 @@ services:
     backend:
         build: ./backend
         ports:
-            - "{PORT}:{PORT}"
+            - "${PORT}:${PORT}"
         environment:
             POSTGRES_PASSWORD: ${DB_PASSWORD}
             POSTGRES_USER: ${DB_USER}
